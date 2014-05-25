@@ -1,0 +1,32 @@
+//created on: Apr 30, 2014
+package first;
+
+//list any import classes here.
+
+
+
+//declare any global variables here
+
+
+
+
+rule "basic rule"
+
+    when
+        //conditions
+        Account ( balance > 100) 
+        Account (balance >100 && balance < 200)
+    then
+        //actions
+        System.out.println("Account balance is less than 100");
+
+end
+
+rule "Your Second Rule"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+    then
+        //actions
+
+end
