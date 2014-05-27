@@ -4,5 +4,51 @@
 	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="DROOLS/Drools"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/antlr-runtime.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/drools-compiler.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/drools-core.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/drools-decisiontables.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/drools-jsr94.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/drools-templates.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/jbpm-bpmn2.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/jbpm-flow.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/jbpm-flow-builder.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/jsr94.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/junit.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/kie-api.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/kie-internal.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/mvel2.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/org.eclipse.jdt.core_3.9.2.v20140114-1555.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/poi.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/poi-ooxml.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/protobuf-java.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/xmlpull.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/xpp3_min.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droos_6.0_runtime/xstream.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/antlr-runtime.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/artifacts.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/content.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/drools-compiler.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/drools-core.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/drools-decisiontables.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droolsjbpm-ide-common.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/drools-jsr94.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/drools-templates.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/guvnor-api.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/jbpm-bpmn2.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/jbpm-flow.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/jbpm-flow-builder.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/jsr94.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/junit.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/jxl.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/knowledge-api.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/knowledge-internal-api.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/mvel2.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/org.eclipse.jdt.core_3.8.3.v20130121-145325.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/xmlpull.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/xpp3_min.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/xstream.jar"/>
 	<classpathentry kind="output" path="target"/>
 </classpath>
