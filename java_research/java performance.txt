@@ -1,0 +1,19 @@
+1. According to Wilson and Kesselman[java platform peformance book], write from the onset, an application should specify performance and scalability requirements explicitly. Ask the following questions:
+-> What is the expected throughput of the application?
+-> What is the expected latency between a stimulus and a response to that stimulus?
+-> How many current users are concurrent tasks shall the application supoprt?
+-> What is the maximum worst case latency?
+-> What is the frequency of garbage collection induced latencies that will be torelated?
+-> There must be a use case to address these questions specifically. 
+
+-> Those use cases that cannot be easily met should be considered as high-risk which needs mitigation before completing the analysis phase. 
+
+-> Integrating performance testing into automated build process allows performance regression to be identified earlier in teh software development process by more easily tracking performance at each coding change committed to the source code base. 
+
+-> Als important is the use of automated statistical analysis.
+
+TWO APPROACHES, TOP DOWN AND BOTTOM UP
+-Top down - focuses at the top of level of the application stack and drills down the software stack looking for problem areas and optimization opportunities. 
+->In contrast, bottom up begins at the lowest level of the software stack, at the CPU level looking at statistics such as CPU cache misses, inefficient use of CPU instructions, and tehn working up the softare stack at what constructs or idioms are used by the applciation. 
+->Top down used by software developers. 
+->bottom up used by performance specialists, sometimes. 

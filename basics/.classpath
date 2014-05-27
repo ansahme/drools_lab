@@ -3,6 +3,34 @@
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="src" path="src/main/rules"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="DROOLS/Drools"/>
+	<classpathentry exported="true" kind="con" path="DROOLS/Drools"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/antlr-runtime.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/artifacts.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/content.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/drools-compiler.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/drools-core.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/drools-decisiontables.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/droolsjbpm-ide-common.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/drools-jsr94.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/drools-templates.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/guvnor-api.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/jbpm-bpmn2.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/jbpm-flow.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/jbpm-flow-builder.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/jsr94.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/junit.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/jxl.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/knowledge-api.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/knowledge-internal-api.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/mvel2.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/org.eclipse.jdt.core_3.8.3.v20130121-145325.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/xmlpull.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/xpp3_min.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/xstream.jar"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/drools/drools-distribution-6.0.1.Final.zip"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/drools/droolsjbpm-integration-distribution-6.0.1.Final.zip"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/drools/droolsjbpm-tools-distribution-6.0.1.Final.zip"/>
+	<classpathentry kind="lib" path="/home/rich/drools_wkspace/drools_lib/drools/kie-drools-wb-distribution-6.0.1.Final.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

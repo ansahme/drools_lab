@@ -1,0 +1,51 @@
+//created on: May 25, 2014
+package validation
+
+//list any import classes here.
+import org.drools.runtime.rule.RuleContext;
+import bank.model.*;
+import bank.service.*;
+import java.util.*;
+
+
+//declare any global variables here
+global ValidationReport validationReport;
+global ReportFactory reportFactory;
+global BankingInquiryService inquiryService;
+import function
+	bank.service.ValidationHelper.error;
+import function
+	bank.service.ValidationHelper.warning;
+
+
+
+rule "addressRequired"
+
+    when
+        //conditions
+        //$customer : Customer( address == null)
+    then
+        //actions
+       // warning(kcontext, $customer);
+
+end
+
+rule "phoneNumberRequired"
+    //include attributes such as "salience" here...
+    when
+        //conditions
+        $customer: Customer( phoneNumber == null || == "")
+        
+    then
+        //actions
+        
+        //error(kcontext,$customer );
+
+end
+
+rule "accountOwnerRequired"
+	when
+		$account: Account(owner == null)
+	then
+	//	error(kcontext, $account);
+end
