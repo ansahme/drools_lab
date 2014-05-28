@@ -26,7 +26,7 @@ rule "addressRequired"
         $customer : Customer( address == null)
     then
         //actions
-        warning(kcontext, $customer);
+        warning(kcontext);
 
 end
 
@@ -39,7 +39,7 @@ rule "phoneNumberRequired"
     then
         //actions
         
-        error(kcontext,$customer );
+        error(kcontext);
 
 end
 
