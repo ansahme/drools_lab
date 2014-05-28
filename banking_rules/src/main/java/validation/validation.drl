@@ -2,7 +2,7 @@
 package validation
 
 //list any import classes here.
-import org.drools.runtime.rule.RuleContext;
+import org.kie.api.runtime.KieRuntime;
 import bank.model.*;
 import bank.service.*;
 import java.util.*;
@@ -23,10 +23,10 @@ rule "addressRequired"
 
     when
         //conditions
-        //$customer : Customer( address == null)
+        $customer : Customer( address == null)
     then
         //actions
-       // warning(kcontext, $customer);
+        warning(kcontext, $customer);
 
 end
 
@@ -39,7 +39,7 @@ rule "phoneNumberRequired"
     then
         //actions
         
-        //error(kcontext,$customer );
+        error(kcontext,$customer );
 
 end
 
@@ -47,5 +47,5 @@ rule "accountOwnerRequired"
 	when
 		$account: Account(owner == null)
 	then
-	//	error(kcontext, $account);
+		error(kcontext, $account);
 end

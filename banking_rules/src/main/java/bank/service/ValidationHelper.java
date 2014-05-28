@@ -1,7 +1,7 @@
 package bank.service;
 
-import org.drools.runtime.KnowledgeRuntime;
-import org.drools.runtime.rule.RuleContext;
+import org.kie.api.runtime.KieRuntime;
+import org.kie.api.runtime.rule.RuleContext;
 
 import validation.Message;
 import validation.ReportFactory;
@@ -15,7 +15,7 @@ public class ValidationHelper {
 	 */
 	
 	public static void error(RuleContext kcontext, Object... context){
-		KnowledgeRuntime knowledgeRuntime = kcontext.getKnowledgeRuntime();
+		KieRuntime knowledgeRuntime = kcontext.getKieRuntime();
 		ValidationReport validationReport = (ValidationReport)knowledgeRuntime.getGlobal("validationReport");
 		ReportFactory reportFactory = (ReportFactory)knowledgeRuntime.getGlobal("reportFactory");
 		
@@ -23,7 +23,7 @@ public class ValidationHelper {
 	}
 	
 	public static void warning(RuleContext kcontext, Object... context){
-		KnowledgeRuntime knowledgeRuntime = kcontext.getKnowledgeRuntime();
+		KieRuntime knowledgeRuntime = kcontext.getKieRuntime();
 		ValidationReport validationReport = (ValidationReport)knowledgeRuntime.getGlobal("validationReport");
 		ReportFactory reportFactory = (ReportFactory)knowledgeRuntime.getGlobal("reportFactory");
 		
