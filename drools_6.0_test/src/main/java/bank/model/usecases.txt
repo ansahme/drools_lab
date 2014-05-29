@@ -1,0 +1,5 @@
+1. Customer's phone number is required
+2. If the customer didn't provide an address, display a warning message
+3. Account number must be unique
+4. Account balance should be at least 100, otherwise display a warning message
+5. Only customers below 27 years of age can open a student account. 
